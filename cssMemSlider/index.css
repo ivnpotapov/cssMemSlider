@@ -50,3 +50,17 @@
   object-fit: cover;
   transition: all 0.5s;
 }
+
+.slider__text-container {
+  grid-area: text;
+  display: flex;
+  overflow: hidden;
+}
+
+.slider__text-item {
+  min-width: 100%;
+  color: #fff;
+  font-size: 2rem;
+  transition: all 0.5s;
+  margin: 0;
+}
