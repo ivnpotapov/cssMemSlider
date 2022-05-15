@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Mem Slider</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <h1 class="header__title">CSS Mem Slider</h1>
+    </header>
+    <main class="main">
+      <div class="slider">
+        <input class="slider__input" type="radio" name="r" id="r1" checked />
+        <input class="slider__input" type="radio" name="r" id="r2" />
+        <input class="slider__input" type="radio" name="r" id="r3" />
+        <input class="slider__input" type="radio" name="r" id="r4" />
+
+        <div class="slider__img-container">
+          <img class="slider__img" src="./images/1.jpg" alt="sunset" />
+          <img class="slider__img" src="./images/2.jpg" alt="sea" />
+          <img class="slider__img" src="./images/3.jpg" alt="street" />
+          <img class="slider__img" src="./images/4.jpg" alt="city" />
+        </div>
+
+        <div class="slider__text-container">
+          <p class="slider__text-item">Закат</p>
+          <p class="slider__text-item">Берег моря</p>
+          <p class="slider__text-item">Ночная улица</p>
+          <p class="slider__text-item">Город за морем</p>
+        </div>
+
+        <div class="slider__controls-container">
+          <label for="r1" class="slider__controls-label">
+            <div class="slider__controls-wrap">
+              <div class="slider__controls-radio"></div>
+            </div>
+          </label>
+          <label for="r2" class="slider__controls-label">
+            <div class="slider__controls-wrap">
+              <div class="slider__controls-radio"></div>
+            </div>
+          </label>
+          <label for="r3" class="slider__controls-label">
+            <div class="slider__controls-wrap">
+              <div class="slider__controls-radio"></div>
+            </div>
+          </label>
+          <label for="r4" class="slider__controls-label">
+            <div class="slider__controls-wrap">
+              <div class="slider__controls-radio"></div>
+            </div>
+          </label>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
